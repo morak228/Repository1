@@ -1,0 +1,28 @@
+
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-girdefault
+
+sudo apt-get install git
+git --version
+
+
+git config --global user.name "xyz"
+git config --global user.email "@gmail.com"
+
+git config --list
+
+git clone repositoryurl
+
+https://github.com/morak228/Repository1.git
+
+vi filename
+
+git status
+git add file name
+
+git commit -m "message"
+git commit -a -m "message"
+
