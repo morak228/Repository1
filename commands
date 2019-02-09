@@ -1,0 +1,197 @@
+    1  sudo add-apt-repository ppa:webupd8team/java
+    2  sudo apt-get update
+    3  sudo su
+    4  sudo apt-get install oracle-java8-installer
+    5  sudo apt-get install oracle-set-defaull
+    6  sudo apt-get install oracle-set-default
+    7  java -version
+    8  sudo apt-get install git
+    9  git --version
+   10  java -version
+   11  git config --global user.name "morak228"
+   12  git config --list
+   13  git config --global user.name "morak228@gmail.com"
+   14  git config --global user.email "morak228@gmail.com"
+   15  git config --list
+   16  git clone https://github.com/morak228/Repository1.git
+   17  ls
+   18  cd Repository1
+   19  ls
+   20  ls -lart
+   21  vi test0.xt
+   22  ls
+   23  gedit test0.xt
+   24  ls
+   25  gedit test0.txt
+   26  sudo apt-get install gedit
+   27  gedit test0.txt
+   28  ls
+   29  gedit test1.txt
+   30  ls
+   31  git status
+   32  git add test0.txt
+   33  git commit -m "first commit"
+   34  git status
+   35  git add test1.txt
+   36  git status
+   37  clear
+   38  git push
+   39  git commit
+   40  git status
+   41  ls
+   42  git add test1.txt
+   43  git status
+   44  git commit
+   45  git commit -m "second commit"
+   46  git status
+   47  git push origin master
+   48  cd ..
+   49  pwd
+   50  ls
+   51  mkdir dir1
+   52  rm -rf dir1
+   53  mkdir dir1
+   54  mv Tem1.txt dir1/
+   55  mv Temp1.txt dir1
+   56  mv Temp1.txt dir1/
+   57  mv Temp1 dir1/
+   58  mv Temp1.gedit dir1/
+   59  pwd
+   60  cd Desktop
+   61  ls
+   62  mv Temp1 dir1/
+   63  ls -lart
+   64  ls
+   65  mv Temp1 /home/dir1/
+   66  ls -lart
+   67  cd ~
+   68  ls
+   69  pwd
+   70  cd Desktop/
+   71  ls
+   72  mv Temp1 /home/mohan/dir1/
+   73  exit
+   74  pwd
+   75  cd dir1
+   76  ls
+   77  mkdir dir1.1
+   78  ls
+   79  cd ~
+   80  ls
+   81  cd Repository1/
+   82  cd ~
+   83  cd dir1/
+   84  cd dir1.1/
+   85  ls
+   86  cd -
+   87  ls
+   88  vi Temp1 
+   89  cp Temp1 Repository1/
+   90  cp Temp1 
+   91  cp Temp1
+   92  cp Temp1 /home/mohan/Repository1/
+   93  cd /home/mohan/Repository1/
+   94  ls
+   95  git status
+   96  git add Temp1
+   97  git commit -m "Temp1"
+   98  git push origin master
+   99  ls
+  100  vi test5
+  101  ls
+  102  git add
+  103  git add .
+  104  git status
+  105  git commit
+  106  git pull origin master
+  107  ls
+  108  git commit
+  109  git status
+  110  git commit -m "test5"
+  111  git push origin master
+  112  git pull origin master
+  113  ls
+  114  git push origin master
+  115  ls
+  116  ls -lart
+  117  rm -rf .test0.xt.swp 
+  118  ls
+  119  ls -lart
+  120  git branch b1
+  121  ls
+  122  la -lart
+  123  git branch b2
+  124  git brannch
+  125  git branch
+  126  git checkout b1
+  127  git branch
+  128  vi test1b1
+  129  ls
+  130  git add .
+  131  git commit -m "test1b1"
+  132  git push origin master
+  133  ls
+  134  git branch
+  135  ls
+  136  git push origin b1
+  137  git status
+  138  git checkout b2
+  139  git checkout b1
+  140  ls
+  141  git checkout mater
+  142  git checkout master
+  143  ls
+  144  git branch
+  145  git merge b1
+  146  ls
+  147  git branch
+  148  git pop
+  149  git log
+  150  cd ~
+  151  git status
+  152  git pop
+  153  ls
+  154  git
+  155  cd ~
+  156  ls
+  157  sudo apt-get update
+  158  sudo apt-get install jenkins
+  159  java -version
+  160  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  161  deb https://pkg.jenkins.io/debian binary/
+  162  sudo apt-get update
+  163  sudo apt-get install jenkins
+  164  cd /var/lib/dpkg/
+  165  ls
+  166  cd lock
+  167  ls
+  168  cat lock
+  169  vim lock
+  170  vi lock
+  171  cd `
+exit
+  172  cd ~
+  173  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+  174  sudo apt-get install jenkins
+  175  sudo rm /var/lib/dpkg/lock
+  176  sudo apt-get install jenkins
+  177  sudo apt-get update
+  178  sudo apt-get install jenkins
+  179  sudo rm /var/lib/dpkg/lock
+  180  sudo apt-get install jenkins
+  181  sudo systemctl start jenkins
+  182  sudo systemctl status jenkins
+  183  sudo ufw allow 8080
+  184  sudo ufw status
+  185  sudo ufw allow OpenSSH
+  186  sudo ufw enable
+  187  sudo ufw status
+  188  ifconfig
+  189  sudo systemctl status jenkins
+  190  ps -ef | grep 8080
+  191  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  192  sudo systemctl stop  jenkins
+  193  sudo systemctl start  jenkins
+  194* sudo systemctl status jenkins
+  195  history
+
